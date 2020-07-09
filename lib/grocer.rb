@@ -17,7 +17,8 @@ def consolidate_cart(cart)
     amount[inner] += 1
     new_cart[inner] = {}
     amount.each do |item, count|
-      new_cart[inner][:count] = count
+      :count = count
+      new_cart[inner] << :count
     end
   end
   new_cart
