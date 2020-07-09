@@ -4,7 +4,7 @@ def find_item_by_name_in_collection(name, collection)
   matches = nil
   collection.map do |item|
     if item[:item] == name
-      item
+      return item
     end
   end
 end
