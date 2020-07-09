@@ -18,7 +18,6 @@ def consolidate_cart(cart)
     cart[inner][:count] = count
     end
   end
-
 end
 
 # Consult README for inputs and outputs
