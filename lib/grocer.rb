@@ -2,7 +2,7 @@ require 'pry'
 
 def find_item_by_name_in_collection(name, collection)
   collection.each do |item|
-    if name == collection[item]
+    if name == collection
       binding.pry
     end
 
