@@ -12,7 +12,7 @@ end
 
 def consolidate_cart(cart)
   final_cart = {}
-  cart.each do |contents|
+  cart.each do |contents, stuff|
     final_cart[contents][:count] = 1
   end
   final_cart
