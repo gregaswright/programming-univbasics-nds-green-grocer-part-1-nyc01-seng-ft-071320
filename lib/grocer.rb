@@ -11,12 +11,11 @@ def find_item_by_name_in_collection(name, collection)
 end
 
 def consolidate_cart(cart)
-  amount = [0]
+  amount = Hash.new(0)
   cart.each do |inner|
     amount[inner] += 1
     binding.pry
   end
-  amount
 end
 
 # Consult README for inputs and outputs
