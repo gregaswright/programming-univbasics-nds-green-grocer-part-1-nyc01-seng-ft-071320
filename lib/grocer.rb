@@ -5,11 +5,10 @@ def find_item_by_name_in_collection(name, collection)
   collection.each do |item|
     if item[:item] == name
       matches = name
-      
+
     end
   end
   matches
-binding.pry
 end
 
 def consolidate_cart(cart)
