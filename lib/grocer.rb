@@ -15,6 +15,7 @@ def consolidate_cart(cart)
   cart.each do |contents|
     contents.each do |data_name, data|
       final_cart[data_name]
+      binding.pry
     end
   end
 end
