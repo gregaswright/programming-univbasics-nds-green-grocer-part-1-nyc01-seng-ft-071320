@@ -22,6 +22,7 @@ def consolidate_cart(cart)
     end
   end
   new_cart
+  pry
 end
 
 # Consult README for inputs and outputs
