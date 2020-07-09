@@ -16,6 +16,7 @@ def consolidate_cart(cart)
     final_cart[contents][:count] = 1
     binding.pry
   end
+  final_cart
 end
 
 # Consult README for inputs and outputs
