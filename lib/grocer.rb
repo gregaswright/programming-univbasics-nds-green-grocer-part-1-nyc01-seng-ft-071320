@@ -11,12 +11,9 @@ def find_item_by_name_in_collection(name, collection)
 end
 
 def consolidate_cart(cart)
-  amount = Hash.new(0)
-  cart.each do |inner|
-    amount[inner] += 1
-  amount.each do |item, count|
-    return cart[inner][:count] = count
-    end
+  final_cart = {}
+  cart.each do |contents|
+    binding.pry
   end
 end
 
