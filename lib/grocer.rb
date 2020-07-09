@@ -19,7 +19,7 @@ def consolidate_cart(cart)
     new_cart[inner] = count
     end
   end
-
+ new_cart
 end
 
 # Consult README for inputs and outputs
