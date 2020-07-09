@@ -12,7 +12,7 @@ end
 
 def consolidate_cart(cart)
   amount = Hash.new(0)
-  new_cart = []
+  new_cart = {}
   cart.each do |inner|
     amount[inner] += 1
   amount.each do |item, count|
