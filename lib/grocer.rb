@@ -18,6 +18,7 @@ def consolidate_cart(cart)
   end
   amount.each do |item, count|
     new_cart[item]
+    binding.pry
   end
 end
 
