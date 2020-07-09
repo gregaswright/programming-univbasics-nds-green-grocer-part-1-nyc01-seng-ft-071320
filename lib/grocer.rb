@@ -21,7 +21,7 @@ def consolidate_cart(cart)
     end
   end
   new_cart
-  pry
+  binding.pry
 end
 
 # Consult README for inputs and outputs
