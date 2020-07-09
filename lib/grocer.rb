@@ -14,10 +14,11 @@ def consolidate_cart(cart)
   final_cart = {}
   cart.each do |contents|
     contents.each do |data_name, data|
-      final_cart[data_name]
-      binding.pry
+      final_cart[data_name][:count]
     end
   end
+  final_cart
+  binding.pry
 end
 
 # Consult README for inputs and outputs
