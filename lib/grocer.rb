@@ -12,12 +12,12 @@ end
 
 def consolidate_cart(cart)
   amount = Hash.new(0)
+  new_cart = {}
   cart.each do |inner|
     amount[inner] += 1
   end
   amount.each do |item, count|
-    "#{item}#{count}"
-    binding.pry
+    new_cart[item]
   end
 end
 
