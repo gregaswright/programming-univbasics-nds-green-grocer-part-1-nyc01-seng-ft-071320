@@ -14,8 +14,9 @@ def consolidate_cart(cart)
   amount = Hash.new(0)
   cart.each do |inner|
     amount[inner] += 1
-    binding.pry
   end
+  amount.each do |item, count|
+    binding.pry
 end
 
 # Consult README for inputs and outputs
