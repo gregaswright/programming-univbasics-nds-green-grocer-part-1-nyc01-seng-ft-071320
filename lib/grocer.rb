@@ -6,6 +6,7 @@ def find_item_by_name_in_collection(name, collection)
     if item[:item]
       binding.pry
     end
+    end
     matches
 end
 
